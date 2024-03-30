@@ -23,3 +23,133 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+section {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#datetime-picker {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.field {
+  margin: 0 10px;
+}
+
+.value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 14px;
+}
+
+#start-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#start-btn:hover,
+#start-btn:focus {
+  background-color: #0056b3;
+  outline: none;
+}
+
+
+
+
+/* 2-snackbar */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form input[type="number"],
+.form input[type="radio"] {
+  margin-right: 5px;
+}
+
+.form fieldset {
+  margin-bottom: 20px;
+}
+
+.form legend {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Add styles for iziToast notifications */
+.iziToast {
+  font-family: Arial, sans-serif;
+}
+
+.iziToast-body {
+  font-size: 14px;
+}

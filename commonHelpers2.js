@@ -1,0 +1,2 @@
+import"./assets/styles-ed0f0f5c.js";const m=document.querySelector(".form");m.addEventListener("submit",s=>{s.preventDefault();const o=new FormData(s.target),t=o.get("delay"),i=o.get("state");new Promise((e,r)=>{i==="fulfilled"?setTimeout(()=>{e(t)},t):i==="rejected"&&setTimeout(()=>{r(t)},t)}).then(e=>{iziToast.success({title:"Success",message:`✅ Fulfilled promise in ${e}ms`})}).catch(e=>{iziToast.error({title:"Error",message:`❌ Rejected promise in ${e}ms`})})});
+//# sourceMappingURL=commonHelpers2.js.map
